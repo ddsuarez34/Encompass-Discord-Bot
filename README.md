@@ -36,3 +36,5 @@ Run `python main.py`
 # TODO
 - Limit !play song size / duration for safety
 - Refactor using Cog design
+- Add auto-disconnect when no more people are listening to the songs
+
