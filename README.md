@@ -32,3 +32,7 @@ Requirements:
 - Discord Token (.env file)
 
 Run `python main.py`
+
+# TODO
+- Limit !play song size / duration for safety
+- Refactor using Cog design
