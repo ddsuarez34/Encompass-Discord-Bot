@@ -8,6 +8,3 @@ def extract_info(query, search=False):
             # Use YouTube search to get the first result
             query = f"ytsearch:{query}"  # yt-dlp format for searching YouTube
         return ydl.extract_info(query, download=False)  # Return search result or video info
-
-
-

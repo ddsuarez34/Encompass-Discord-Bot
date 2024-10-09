@@ -150,7 +150,6 @@ async def restart(ctx):
     if ctx.voice_client is not None:
         ctx.voice_client.stop()
         await asyncio.sleep(1)  
-        ctx.voice_client.cleanup()
         await ctx.voice_client.disconnect()
 
 # Run the bot
